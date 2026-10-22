@@ -22,6 +22,9 @@
       <h3 id="visitor-name"></h3>
       <p id="visitor-arrival"></p>
       <p id="visitor-clue"></p>
+
+      <button type="button" id="ask-question"> Ask one more thing (2 left) </button>
+      <p id="extra-clue" role="status"></p>
     </section>
     <section class="counter">
       <h2>On the shelf</h2>
@@ -35,9 +38,11 @@
       <p id="inspection">Pick an item to read the day clerk's label.</p>
 
       <button type="button" id="hand-over">Hand over selected item</button>
+      <button type="button" id="turn-away">Nothing matches. Turn them away.</button>
       <p id="feedback" role="status"></p>
 
       <button type="button" id="next-visitor" hidden>Next visitor →</button>
+      <button type="button" id="restart">Restart shift</button>
     </section>
   </body>
 </html>
