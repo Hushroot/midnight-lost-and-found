@@ -1,0 +1,55 @@
+body {
+  background-color: #171714;
+  color: #e7e6d9;
+  font-family: "Courier New", monospace;
+  line-height: 1.6;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+h1 {
+  color: #edc78c;
+  font-family: Georgia, serif;
+}
+section {
+  margin-top: 24px;
+}
+.window {
+  background-color: #252b25;
+  border: 6px solid #4c5141;
+  padding: 24px;
+}
+.window h2 {
+  color: #edc78c;
+  font-size: 16px;
+}
+.window h3 {
+  font-family: Georgia, serif;
+  font-size: 24px;
+}
+.window img {
+  display: block;
+  margin: 16px auto;
+}
+.counter {
+  background-color: #302b24;
+  border-top: 8px solid #746044;
+  padding: 20px;
+}
+.counter button {
+  background-color: #211e1a;
+  color: #eee7d7;
+  border: 1px solid #968269;
+  padding: 12px 16px;
+  margin: 4px;
+  font: inherit;
+  cursor: pointer;
+}
+.counter button:hover {
+  background-color: #edc78c;
+  color: #211e1a;
+}
+.counter button:focus-visible {
+  outline: 3px solid #edc78c;
+  outline-offset: 3px;
+}

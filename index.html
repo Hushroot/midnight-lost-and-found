@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midnight Lost &amp; Found</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Midnight Lost &amp; Found</h1>
+    <p>The day clerk left at eleven. You're covering until morning.</p>
+
+    <p>
+      Sorted: <span id="score">0</span> | Mistakes:
+      <span id="mistakes">0</span> / 3
+    </p>
+
+    <section class="window">
+      <h2>At the window</h2>
+      <img src="assets/ghost.svg" alt="A ghost" width="120" height="120" />
+      <h3 id="visitor-name"></h3>
+      <p id="visitor-arrival"></p>
+      <p id="visitor-clue"></p>
+    </section>
+    <section class="counter">
+      <h2>On the shelf</h2>
+      <p>Martin's labels. Match every detail; send them away if none fits.</p>
+
+      <button type="button" id="key-a">Inspect Key A</button>
+      <button type="button" id="key-b">Inspect Key B</button>
+      <button type="button" id="key-c">Inspect Key C</button>
+      <button type="button" id="key-d">Inspect Key D</button>
+
+      <p id="inspection">Pick an item to read the day clerk's label.</p>
+
+      <button type="button" id="hand-over">Hand over selected item</button>
+      <p id="feedback" role="status"></p>
+
+      <button type="button" id="next-visitor" hidden>Next visitor →</button>
+    </section>
+  </body>
+</html>
