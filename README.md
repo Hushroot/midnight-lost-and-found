@@ -4,7 +4,7 @@ A small spooky browser game about working the night shift at a station's lost-pr
 
 **[Play the game](https://hushroot.github.io/midnight-lost-and-found/)**
 
-![The live game's opening screen, with Mrs. Bell, the ghost illustration, four key buttons, and the score at zero.](docs/screenshots/01-night-window.png)
+![The live game's opening screen, with Mrs. Bell, the ghost illustration, four key buttons, and the score at zero.](midnight-live-opening.png)
 
 *Your first visitor is Mrs. Bell. Her story appears in “At the window,” and the four items you can inspect are under “On the shelf.” Sorted claims and mistakes appear at the top.*
 
@@ -20,7 +20,7 @@ I was inspired by the black theme and the way 3am projects are designed. That ga
 4. Select the item that matches every detail, then click **Hand over selected item**. If none matches, click **Nothing matches. Turn them away.**
 5. Read the visitor's response or the explanation of your mistake, then click **Next visitor →**. After the final claim or your third mistake, this same button reveals the ending.
 
-![Inspect Key A is highlighted, and its label describes an upstairs room key. The score is still zero.](docs/screenshots/02-inspection.png)
+![Inspect Key A is highlighted, and its label describes an upstairs room key. The score is still zero.](midnight-live-inspection.png)
 
 *Inspecting an item only selects it and shows its label. Compare the label with the claim before deciding whether to return it.*
 
@@ -35,7 +35,7 @@ I was inspired by the black theme and the way 3am projects are designed. That ga
 
 You can also use **Tab** to move between buttons and **Enter** to activate the focused button.
 
-![Mrs. Bell's extra clue and a correct return, with Sorted at 1, Mistakes at 0, and Next visitor available.](docs/screenshots/03-returned-item.png)
+![Mrs. Bell's extra clue and a correct return, with Sorted at 1, Mistakes at 0, and Next visitor available.](midnight-live-return.png)
 
 *Here, a follow-up question has been used and a matching item returned. The visitor responds, the score updates, and the answer buttons lock until you continue.*
 
@@ -43,7 +43,7 @@ You can also use **Tab** to move between buttons and **Enter** to activate the f
 
 A correct return or rejection adds one to **Sorted**. A wrong decision adds one mistake. There are four visitors, and three mistakes close the window early. Finish all four claims without mistakes for the best ending, or reach morning with one or two mistakes for a different ending.
 
-![The live game's ending after four correct claims, with Sorted at 4, Mistakes at 0, and Restart shift available.](docs/screenshots/04-shift-ending.png)
+![The live game's ending after four correct claims, with Sorted at 4, Mistakes at 0, and Restart shift available.](midnight-live-ending.png)
 
 *The ending appears below the shelf on the same page. This screenshot shows the result of sorting all four claims correctly. Use “Restart shift” to play again.*
 
@@ -65,4 +65,4 @@ python3 -m http.server 8013 --bind 127.0.0.1
 
 Then open [http://127.0.0.1:8013](http://127.0.0.1:8013).
 
-Built with HTML, CSS, and plain JavaScript. `index.html` contains the page, `style.css` provides the dark theme, `script.js` contains the visitors and game logic, and `assets/ghost.svg` is the ghost illustration. README screenshots are stored in `docs/screenshots/`.
+Built with HTML, CSS, and plain JavaScript. `index.html` contains the page, `style.css` provides the dark theme, `script.js` contains the visitors and game logic, and `assets/ghost.svg` is the ghost illustration. README screenshots are stored beside `README.md` as `midnight-live-*.png` files.
